@@ -33,6 +33,14 @@ p {
     right: 52%;
     
 }
+.btn1 a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .btn2 {
     width: 260px;
     height: 50px;
@@ -45,4 +53,8 @@ p {
     color: #FFFFFF;
     position: absolute;
     left: 52%;
+}
+
+.article a {
+    
 }

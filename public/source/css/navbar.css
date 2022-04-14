@@ -1,24 +1,24 @@
 .logo {
-    width: 200px;
-    height: 80px;
+    width: 150px;
+    height: 60px;
 }
 
 .logo1 {
-    width: 260px;
-    height: 62px;
+    width: 200px;
+    height: 55.23px;
     float: left;
 }
 
 
-ul li a {
+.nav-item a {
     width: 130px;
     height: 35px;
     margin-left: 40px;
     top: 80px;
     font-family:Montserrat;
     font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 0.85em;
     line-height: 27px;
     text-align: center;
     color: #61A4C9;;
