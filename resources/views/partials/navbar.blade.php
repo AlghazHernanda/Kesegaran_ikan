@@ -18,7 +18,7 @@
                     <a class="navbar-brand" href="/Aplication">Aplication</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand" href="/categories">Contact</a>
+                    <a class="navbar-brand" href="/Contact">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand" href="/categories">Profile</a>

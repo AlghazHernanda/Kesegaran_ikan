@@ -22,3 +22,6 @@ Route::get('/Aplication', function () {
 Route::get('/Article', function () {
     return view('Article');
 });
+Route::get('/FormKerjasama', function () {
+    return view('FormKerjasama');
+});

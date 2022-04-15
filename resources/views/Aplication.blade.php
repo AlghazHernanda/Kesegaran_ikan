@@ -14,7 +14,7 @@
             <div class="box1" style="border-style: solid; width: 650px; height: 268px; border-radius:10px;">
                 <div>
                     <input type="file" id="file" accept="image/*">
-                    <label for="file">
+                    <label class="button" for="file">
                     Choose or Drop Picture 
                     </label>
                 </div>

@@ -10,7 +10,7 @@
     </nav>
 </div>
 <div>
-    <button type="button" class="btn1" > <a class="article" href="/Article"> Article</a> </button>
+    <button type="button" class="btn1" > <a  href="/Article"> Article</a> </button>
     <button type="button" class="btn2">Research</button>
 </div>
 
