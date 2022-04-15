@@ -14,7 +14,7 @@
             @csrf
         <div class="row justify-content-md-center">
             <div class="col-md-auto">
-                <div class="box1" style="border-style: solid; width: 650px; height: 395px; border-radius:10px; ">
+                <div class="box1" style="border-style: solid; width: 650px; height: auto; border-radius:10px; ">
                     <div style="justify-content: center; align-items: center; right:0; left:0;" >
                        
                         <input style="margin:auto; margin-top: 10px; width: 93%;" name="nama" type="name" class="form-control @error('nama') is-invalid @enderror" id="nama"

@@ -24,25 +24,6 @@ input[type="file"] {
     display: none;
 }
 
-label .button {
-    color: black;
-    width: 304px;
-    height: 33px;
-    font-weight: bold;
-    background-color: #0F6DA0;
-    border-radius: 10px;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .box2 h5 {
     align-items: center;
     text-align: center;

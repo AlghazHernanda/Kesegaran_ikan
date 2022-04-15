@@ -24,6 +24,10 @@ Route::get('/Article', function () {
     return view('Article');
 });
 
+Route::get('/Contact', function () {
+    return view('Contact');
+});
+
 Route::get('/FormKerjasama', [KerjasamaController::class, 'index']);
 Route::post('/FormKerjasama', [KerjasamaController::class, 'store']);
 

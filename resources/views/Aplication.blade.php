@@ -14,15 +14,15 @@
             <div class="box1" style="border-style: solid; width: 650px; height: 268px; border-radius:10px;">
                 <div>
                     <input type="file" id="file" accept="image/*">
-                    <label class="button" for="file">
-                    Choose or Drop Picture 
+                    <label class="file" for="file" style="color: black;width: 304px;height: 33px;font-weight: bold;background-color: #0F6DA0;border-radius: 10px;position: absolute;margin: auto;top: 0;bottom: 0;left: 0;right: 0;font-size: 12px;display: flex;justify-content: center;align-items: center;">
+                        Choose or Drop Picture
                     </label>
                 </div>
             </div>
-            <div class="box2" >
+            <div class="box2">
                 <div>
                     <h5>
-                       RESULT
+                        RESULT
                     </h5>
                     </label>
                 </div>

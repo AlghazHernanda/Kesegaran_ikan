@@ -1,7 +1,7 @@
 <footer class="jumbotron-fluid " id="Footer">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col" style="margin-top: 10px;">
                 <a>Contact</a>
                 <h3>informatika@unpad.ac.id</h3>
                 <h3>6222-7794545</h3>

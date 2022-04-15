@@ -1,7 +1,9 @@
 #Footer {
     background-color: #0F6DA0;
-    position: fixed;
+    margin-top: auto;
+    position: absolute;
     width: 100%;
+    height: 132px;
 	bottom: 0;
 } 
 
