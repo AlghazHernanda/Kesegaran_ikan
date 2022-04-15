@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KerjasamaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,10 @@ Route::get('/Aplication', function () {
 Route::get('/Article', function () {
     return view('Article');
 });
-Route::get('/FormKerjasama', function () {
-    return view('FormKerjasama');
-});
+
+Route::get('/FormKerjasama', [KerjasamaController::class, 'index']);
+Route::post('/FormKerjasama', [KerjasamaController::class, 'store']);
+
+// Route::get('/FormKerjasama', function () {
+//     return view('FormKerjasama');
+// });

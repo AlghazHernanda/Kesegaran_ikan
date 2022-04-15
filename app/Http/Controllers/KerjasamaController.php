@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Kerjasama;
 use Illuminate\Http\Request;
 
 class KerjasamaController extends Controller
@@ -13,7 +14,7 @@ class KerjasamaController extends Controller
      */
     public function index()
     {
-        //
+        return view('FormKerjasama');
     }
 
     /**
@@ -23,7 +24,6 @@ class KerjasamaController extends Controller
      */
     public function create()
     {
-        //
     }
 
     /**
@@ -34,7 +34,18 @@ class KerjasamaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'nama' => 'required|max:255',
+            'address' => 'required',
+            'phonenumber' => 'required',
+            'email' => 'required|email:dns', //maksudnya maksimal file nya 1024 kilobyte ata 1 mb
+            'agencyname' => 'required',
+            'fieldofcooperation' => 'required'
+        ]);
+
+        Kerjasama::create($validatedData);
+
+        return redirect('/')->with('success', 'New Post has Been Added');
     }
 
     /**

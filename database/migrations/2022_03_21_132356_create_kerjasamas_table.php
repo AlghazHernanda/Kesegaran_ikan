@@ -15,6 +15,12 @@ class CreateKerjasamasTable extends Migration
     {
         Schema::create('kerjasamas', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->string('address');
+            $table->string('phonenumber');
+            $table->string('email');
+            $table->string('agencyname');
+            $table->string('fieldofcooperation');
             $table->timestamps();
         });
     }
