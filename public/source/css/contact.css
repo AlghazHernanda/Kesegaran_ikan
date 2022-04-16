@@ -1,3 +1,27 @@
 .col img {
-    float: left;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.col img .massage {
+    margin-top: 50px;
+}
+
+.col h1 {
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.col p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 27px;
+    text-align: justify;
+    color: black;
 }

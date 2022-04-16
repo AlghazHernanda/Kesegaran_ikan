@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="{{asset('source/css/footer.css')}}">
   <link rel="stylesheet" href="{{asset('source/css/welcome.css')}}">
   <link rel="stylesheet" href="{{asset('source/css/Aplication.css')}}">
+  <link rel="stylesheet" href="{{asset('source/css/contact.css')}}">
 
   <title>KESEGARAN IKAN</title>
 </head>

@@ -14,10 +14,10 @@
             @csrf
         <div class="row justify-content-md-center">
             <div class="col-md-auto">
-                <div class="box1" style="border-style: solid; width: 650px; height: auto; border-radius:10px; ">
+                <div class="box1" style="border-style: solid; border-color:#C4C4C4; width: 650px; height: auto; border-radius:10px; ">
                     <div style="justify-content: center; align-items: center; right:0; left:0;" >
                        
-                        <input style="margin:auto; margin-top: 10px; width: 93%;" name="nama" type="name" class="form-control @error('nama') is-invalid @enderror" id="nama"
+                        <input style="margin:auto; margin-top: 10px; width: 93%; border-radius:10px;" name="nama" type="name" class="form-control @error('nama') is-invalid @enderror" id="nama"
                             placeholder="Full Name">
                             @error('nama') 
                             <div class="invalid-feedback">
@@ -25,7 +25,7 @@
                             </div>
                            @enderror
            
-                        <input style="margin:auto; margin-top: 10px;  width: 93%" name="address" type="address" class="form-control form-control @error('address') is-invalid @enderror" id="address"
+                        <input style="margin:auto; margin-top: 10px;  width: 93% ; border-radius:10px;" name="address" type="address" class="form-control form-control @error('address') is-invalid @enderror" id="address"
                             placeholder="Address">
                             @error('address') 
                             <div class="invalid-feedback">
@@ -33,7 +33,7 @@
                             </div>
                            @enderror
 
-                        <input style="margin:auto; margin-top: 10px; width: 93%;" name="phonenumber" type="phonenumber" class="form-control form-control @error('phonenumber') is-invalid @enderror" id="phonenumber"
+                        <input style="margin:auto; margin-top: 10px; width: 93%; border-radius:10px;" name="phonenumber" type="phonenumber" class="form-control form-control @error('phonenumber') is-invalid @enderror" id="phonenumber"
                             placeholder="Phone Number">
                             @error('phonenumber') 
                             <div class="invalid-feedback">
@@ -41,7 +41,7 @@
                             </div>
                            @enderror
 
-                        <input style="margin:auto; margin-top: 10px; width: 93%" name="email" type="email" class="form-control form-control @error('email') is-invalid @enderror"id="tanggallahir"
+                        <input style="margin:auto; margin-top: 10px; width: 93% ; border-radius:10px;" name="email" type="email" class="form-control form-control @error('email') is-invalid @enderror"id="tanggallahir"
                         placeholder="Email">
                         @error('email') 
                         <div class="invalid-feedback">
@@ -49,7 +49,7 @@
                         </div>
                        @enderror
 
-                        <input style="margin:auto; margin-top: 10px; width: 93%;" name="agencyname" type="agencyname" class="form-control form-control @error('agencyname') is-invalid @enderror"
+                        <input style="margin:auto; margin-top: 10px; width: 93%; border-radius:10px;" name="agencyname" type="agencyname" class="form-control form-control @error('agencyname') is-invalid @enderror"
                             id="agencyname" placeholder="Agency Name">
                             @error('agencyname') 
                             <div class="invalid-feedback">
@@ -57,7 +57,7 @@
                             </div>
                            @enderror
 
-                        <input style="margin:auto; margin-top: 10px; width: 93%" name="fieldofcooperation" type="fieldofcooperation" class="form-control form-control @error('fieldofcooperation') is-invalid @enderror" id="fieldofcooperation"
+                        <input style="margin:auto; margin-top: 10px; width: 93% ;  border-radius:10px;" name="fieldofcooperation" type="fieldofcooperation" class="form-control form-control @error('fieldofcooperation') is-invalid @enderror" id="fieldofcooperation"
                             placeholder="Field of Cooperation">
                             @error('fieldofcooperation') 
                             <div class="invalid-feedback">
@@ -73,8 +73,8 @@
                             </label>
                         </div>
                     
-                        <button style="border-color: white; margin-left:22px; width: 128px;  margin-top: 20px; background-color :#0F6DA0; color: white;"
-                            type="submit" class="btn  btn-border-radius-sm;">Masuk</button>
+                        <button style="border-color: white; margin-left:22px; width: 128px;  margin-top: 20px; background-color :#0F6DA0; color: white; margin-bottom:10px;"
+                            type="submit" class="btn  btn-border-radius-sm;">JOIN</button>
                         </form>
                     </div>
 

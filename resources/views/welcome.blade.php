@@ -10,7 +10,9 @@
         <div></div>
     </div>
     <div>
-        <button type="button" class="btn1"> <a href="/Article"> Article</a> </button>
+        <form action="/Article" method="get">
+        <a href="/Article"><button type="button" class="btn1" >Article   </button></a>
+        </form>
         <button type="button" class="btn2">Research</button>
     </div>
 </div>
