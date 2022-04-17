@@ -9,7 +9,7 @@
             <p>Form of cooperation in research of the Unpad Big Data Artificial Intelligence Research Center</p>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style="margin-bottom: 15px;">
         <form action="/FormKerjasama" method="POST">
             @csrf
         <div class="row justify-content-md-center">
@@ -25,7 +25,7 @@
                             </div>
                            @enderror
            
-                        <input style="margin:auto; margin-top: 10px;  width: 93% ; border-radius:10px;" name="address" type="address" class="form-control form-control @error('address') is-invalid @enderror" id="address"
+                        <input style="margin:auto; margin-top: 10px;  width: 93% ;   border-radius:10px;" name="address" type="address" class="form-control form-control @error('address') is-invalid @enderror" id="address"
                             placeholder="Address">
                             @error('address') 
                             <div class="invalid-feedback">
@@ -67,7 +67,7 @@
 
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-                                style="margin:auto; margin-top: 10px;">
+                                style="margin:auto; margin-top: 15px; margin-right:5px; ">
                             <label class="form-check-label" for="flexCheckDefault" style="margin-top: 10px;">
                             The Personal Data You Have Filled Out Is Correct
                             </label>

@@ -1,9 +1,10 @@
+
 @extends('layout.main') {{-- ini memanggil file main yang di dalam layout --}}
 @section('container')
 
 <div class="container">
 
-    <div class="row" style="margin-top: 20px;">
+    <div class="row" style="margin-top: 20px; margin-bottom: 15px;">
         <div class="col" style="border-color: rgba(15, 109, 160, 0.12); border-radius: 10px ; background: rgba(15, 109, 160, 0.12);">
             <h1>CONTACT FORM</h1>
             <div class="row" style="margin:10px">
@@ -41,7 +42,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="col" style=" padding:60px; margin-top: 200px; ">
+            <div class="col" style=" padding:60px; margin-top: 150px; ">
                 <div class="col"
                     style="border-style: solid; border-radius: 10px ;border-color: rgba(15, 109, 160, 0.12); background: rgba(15, 109, 160, 0.12);">
                     <div class="row" style="margin:10px;">

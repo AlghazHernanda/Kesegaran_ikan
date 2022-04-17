@@ -1,12 +1,14 @@
 .logo {
     width: 150px;
     height: 60px;
+    margin-top:0 ;
 }
 
 .logo1 {
     width: 200px;
     height: 55.23px;
     float: left;
+    margin-top: 0;
 }
 
 
@@ -22,4 +24,9 @@
     line-height: 27px;
     text-align: center;
     color: #61A4C9;;
+}
+
+*{
+    padding: 0;
+    margin: 0;
 }

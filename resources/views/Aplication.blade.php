@@ -1,5 +1,6 @@
 @extends('layout.main') {{-- ini memanggil file main yang di dalam layout --}}
 @section('container')
+
 <div>
     <div class="fishchecking">
         <h1>Fish Checking </h1>
@@ -19,7 +20,7 @@
                     </label>
                 </div>
             </div>
-            <div class="box2">
+            <div class="box2" style="margin-bottom: 53px;">
                 <div>
                     <h5>
                         RESULT
@@ -29,4 +30,5 @@
             </div>
         </div>
     </div>
+    
     @endsection
