@@ -4,27 +4,30 @@
 
 <div class="container">
 
+    <form action="/Contact" method="POST">
+    @csrf
+
     <div class="row" style="margin-top: 20px; margin-bottom: 15px;">
         <div class="col" style="border-color: rgba(15, 109, 160, 0.12); border-radius: 10px ; background: rgba(15, 109, 160, 0.12);">
             <h1>CONTACT FORM</h1>
             <div class="row" style="margin:10px">
                 <div class="col-6 col-md-2"> <img class="contact" style=" margin-top: 34px; width: 40px; height: 40px;"
                         src="/source/img/profil.png" alt=""></div>
-                <div class="col">Full Name<input style=" margin-top: 10px; width: 90%;" name="nama" type="name"
+                <div class="col">Full Name<input style=" margin-top: 10px; width: 90%;" name="fullname" type="name"
                         class="form-control @error('nama') is-invalid @enderror" id="nama" placeholder="Full Name">
                 </div>
             </div>
             <div class="row" style="margin:10px">
                 <div class="col-6 col-md-2"> <img class="contact" style=" margin-top: 30px; width: 40px; height: 40px;"
                         src="/source/img/mail2.png" alt=""></div>
-                <div class="col">Email<input style=" margin-top: 10px; width: 90%;" name="nama" type="name"
+                <div class="col">Email<input style=" margin-top: 10px; width: 90%;" name="email" type="name"
                         class="form-control @error('nama') is-invalid @enderror" id="nama" placeholder="Email">
                 </div>
             </div>
             <div class="row" style="margin:10px">
                 <div class="col-6 col-md-2"> <img class="contact" style=" margin-top: 32px; width: 40px; height: 40px;"
                         src="/source/img/ig.png" alt=""></div>
-                <div class="col">Username Instagram<input style=" margin-top: 10px; width: 90%;" name="nama" type="name"
+                <div class="col">Username Instagram<input style=" margin-top: 10px; width: 90%;" name="instagram" type="name"
                         class="form-control @error('nama') is-invalid @enderror" id="nama"
                         placeholder="Username Instagram">
                 </div>
@@ -32,15 +35,16 @@
             <div class="row" style="margin:10px">
                 <div class="col-6 col-md-2"> <img class="massage" style=" margin-top:70px ;width: 40px; height: 40px;"
                         src="/source/img/mail.png" alt=""></div>
-                <div class="col">Massage<input style=" margin-top: 10px; width: 90%; height:150px;" name="nama"
+                <div class="col">Massage<input style=" margin-top: 10px; width: 90%; height:150px;" name="message"
                         type="name" class="form-control @error('nama') is-invalid @enderror" id="nama"
                         placeholder="Massage">
                 </div>
             </div>
             <div class="" style="margin-left:55px; margin-bottom: 10px; ">
-                <button style="width: 519px; height: 47px; background: #0F6DA0; border-radius: 10px ;">send</button>
+                <button type="submit" style="width: 519px; height: 47px; background: #0F6DA0; border-radius: 10px ;">send</button>
             </div>
         </div>
+    </form>
         <div class="col">
             <div class="col" style=" padding:60px; margin-top: 150px; ">
                 <div class="col"

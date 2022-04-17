@@ -66,15 +66,15 @@
                             </div>
                             @enderror
 
-                            <form action="/action_page.php" >
+                           
 
-                                <select id="cars" name="cars" style=" margin-top: 10px; width: 93% ;  border-radius:10px;margin-left:22px;  height: 38px; padding-left:9px; border-color:#C4C4C4; color:#6c757d;">  Field of Collaboration
+                                <select id="fieldofcooperation" name="fieldofcooperation" style=" margin-top: 10px; width: 93% ;  border-radius:10px;margin-left:22px;  height: 38px; padding-left:9px; border-color:#C4C4C4; color:#6c757d;">  Field of Collaboration
                                 <option value=""> Field of Collaboration</option>    
                                 <option value="Research"> Research </option>
                                 <option value=" Developer"> Developer </option>
                                 <option value="Sponsors"> Sponsors </option>
                                 </select>
-                            </form>
+                           
 
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"

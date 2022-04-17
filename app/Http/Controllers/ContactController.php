@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -13,7 +14,7 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        return view('Contact');
     }
 
     /**
@@ -34,7 +35,16 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'fullname' => 'required|max:255',
+            'instagram' => 'required',
+            'message' => 'required',
+            'email' => 'required|email:dns', //maksudnya maksimal file nya 1024 kilobyte ata 1 mb
+        ]);
+
+        Contact::create($validatedData);
+
+        return redirect('/')->with('success', 'New Post has Been Added');
     }
 
     /**

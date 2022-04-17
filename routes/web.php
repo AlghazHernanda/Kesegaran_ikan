@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\KerjasamaController;
 use Illuminate\Support\Facades\Route;
 
@@ -24,9 +25,11 @@ Route::get('/Article', function () {
     return view('Article');
 });
 
-Route::get('/Contact', function () {
-    return view('Contact');
-});
+Route::get('/Contact', [ContactController::class, 'index']);
+Route::post('/Contact', [ContactController::class, 'store']);
+// Route::get('/Contact', function () {
+//     return view('Contact');
+// });
 
 Route::get('/FormKerjasama', [KerjasamaController::class, 'index']);
 Route::post('/FormKerjasama', [KerjasamaController::class, 'store']);
