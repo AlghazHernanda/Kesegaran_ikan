@@ -5,7 +5,7 @@
 <div>
     <div>
         <div class="fishchecking">
-            <h1>Form collaboration </h1>
+            <h1>Form Collaboration </h1>
             <p>Form of cooperation in research of the Unpad Big Data Artificial Intelligence Research Center</p>
         </div>
     </div>
@@ -66,26 +66,19 @@
                             </div>
                             @enderror
 
-                           
 
-                                <select id="fieldofcooperation" name="fieldofcooperation" style=" margin-top: 10px; width: 93% ;  border-radius:10px;margin-left:22px;  height: 38px; padding-left:9px; border-color:#C4C4C4; color:#6c757d;">  Field of Collaboration
-                                <option value=""> Field of Collaboration</option>    
+
+                            <select id="fieldofcooperation" name="fieldofcooperation"
+                                style=" margin-top: 10px; width: 93% ;  border-radius:10px;margin-left:22px;  height: 38px; padding-left:9px; border-color:#C4C4C4; color:#6c757d;">
+                                Field of Collaboration
+                                <option value=""> Field of Collaboration</option>
                                 <option value="Research"> Research </option>
                                 <option value=" Developer"> Developer </option>
                                 <option value="Sponsors"> Sponsors </option>
-                                </select>
-                           
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-                                    style="margin:auto; margin-top: 15px; margin-right:5px; ">
-                                <label class="form-check-label" for="flexCheckDefault" style="margin-top: 10px;">
-                                    The Personal Data You Have Filled Out Is Correct
-                                </label>
-                            </div>
+                            </select>
 
                             <button
-                                style="border-color: white; margin-left:22px; width: 128px;  margin-top: 20px; background-color :#0F6DA0; color: white; margin-bottom:10px;"
+                                style="border-color: white; margin-left:22px; width: 128px;  margin-top: 20px; background-color :#0F6DA0; color: white; margin-bottom:35px;"
                                 type="submit" class="btn  btn-border-radius-sm;">JOIN</button>
         </form>
     </div>
@@ -93,6 +86,6 @@
 </div>
 </div>
 </div>
-</div>
+
 
 @endsection

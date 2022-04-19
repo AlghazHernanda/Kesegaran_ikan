@@ -18,6 +18,12 @@
   <link rel="stylesheet" href="{{asset('source/css/welcome.css')}}">
   <link rel="stylesheet" href="{{asset('source/css/Aplication.css')}}">
   <link rel="stylesheet" href="{{asset('source/css/contact.css')}}">
+  <link rel="stylesheet" href="{{asset('source/css/Research.css')}}">
+  <link rel="stylesheet" href="{{asset('source/css/About.css')}}">
+  <link rel="stylesheet" href="{{asset('source/css/Article.css')}}">
+  <link rel="stylesheet" href="{{asset('source/css/Profile.css')}}">
+
+
 
   <title>KESEGARAN IKAN</title>
 </head>

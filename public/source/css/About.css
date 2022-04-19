@@ -1,0 +1,55 @@
+ .about p {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 30px;
+     margin-top: 10px;
+     line-height: 24px;
+     text-align: center;
+     color: black;
+ }
+
+ .about img {
+     width: 200px;
+     height: 200px;
+     float: none;
+     margin: 0;
+     margin-top: 10px;
+ }
+
+ .developer p {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 15px;
+     margin-top: 10px;
+     line-height: 24px;
+     color: black;
+
+ }
+
+ .about button {
+     width: 250px;
+     height: 90px;
+     border-radius: 30px;
+     margin-left: 40%;
+     border-color: #61A4C9;
+     border-style: solid;
+     background: white;
+     font-weight: bold;
+     color: #0F6DA0;
+ }
+
+  h2 {
+     font-family:'roboto';
+     font-weight: bold;
+     text-align: center;
+     
+ }
+
+ .row .US p{
+     font-weight: normal;
+     font-family: 'roboto';
+     font-size: 20px;
+     color: white;
+ }

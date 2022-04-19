@@ -21,7 +21,7 @@
                     <a class="navbar-brand" href="/Contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand" href="/categories">Profile</a>
+                    <a class="navbar-brand" href="/Profile">Profile</a>
                 </li>
             </ul>
         </div>

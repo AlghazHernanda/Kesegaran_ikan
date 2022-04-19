@@ -8,9 +8,9 @@
             <p>Welcome to the Fish Freshness Research Website </p>
             <p>This website will help the public in providing information about </p>
             <p>Fish Freshness </p>
-            <form action="/Article" method="get" style="margin-bottom: 216px;">
+            <form  method="get" style="margin-bottom: 216px;">
                 <a href="/Article"><button type="button" class="btn1">Article </button></a>
-                <a href=""><button type="button" class="btn2">Research</button></a>
+                <a href="/Research"><button type="button" class="btn2">Research</button></a>
             </form>
         </div>
     </div>

@@ -1,0 +1,29 @@
+.article p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: justify;
+    color:black;
+}
+
+.isi p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: justify;
+    color:black;
+}
+
+.ikan img{
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+    margin-left: 0;
+
+}

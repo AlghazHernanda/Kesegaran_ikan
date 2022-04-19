@@ -24,6 +24,15 @@ Route::get('/Aplication', function () {
 Route::get('/Article', function () {
     return view('Article');
 });
+Route::get('/Research', function () {
+    return view('Research');
+});
+Route::get('/about', function () {
+    return view('About');
+});
+Route::get('/Profile', function () {
+    return view('Profile');
+});
 
 Route::get('/Contact', [ContactController::class, 'index']);
 Route::post('/Contact', [ContactController::class, 'store']);

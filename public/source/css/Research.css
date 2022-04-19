@@ -1,0 +1,50 @@
+.research p {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: justify;
+    color: black ;
+}
+
+.research h4 {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: justify;
+    color:#61A4C9 ;
+}
+
+.research a{
+    text-decoration: none;
+    font-family: 'roboto';
+    font-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: justify;
+    color:#61A4C9 ;
+}
+
+.research img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.research h2{
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: bold;
+    color: #61A4C9;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
