@@ -39,7 +39,8 @@ class ContactController extends Controller
             'fullname' => 'required|max:255',
             'instagram' => 'required',
             'message' => 'required',
-            'email' => 'required|email:dns', //maksudnya maksimal file nya 1024 kilobyte ata 1 mb
+            'email' => 'required|email:dns',
+            //maksudnya maksimal file nya 1024 kilobyte ata 1 mb
         ]);
 
         Contact::create($validatedData);
