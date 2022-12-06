@@ -14,21 +14,21 @@
                 <div class="col-6 col-md-2"> <img class="contact" style=" margin-top: 34px; width: 40px; height: 40px;"
                         src="/source/img/profil.png" alt=""></div>
                 <div class="col">Full Name<input style=" margin-top: 10px; width: 90%;" name="fullname" type="name"
-                        class="form-control @error('nama') is-invalid @enderror" id="nama" placeholder="Full Name">
+                        class="form-control @error('fullname') is-invalid @enderror" id="nama" placeholder="Full Name">
                 </div>
             </div>
             <div class="row" style="margin:10px">
                 <div class="col-6 col-md-2"> <img class="contact" style=" margin-top: 30px; width: 40px; height: 40px;"
                         src="/source/img/mail2.png" alt=""></div>
                 <div class="col">Email<input style=" margin-top: 10px; width: 90%;" name="email" type="name"
-                        class="form-control @error('nama') is-invalid @enderror" id="nama" placeholder="Email">
+                        class="form-control @error('email') is-invalid @enderror" id="nama" placeholder="Email">
                 </div>
             </div>
             <div class="row" style="margin:10px">
                 <div class="col-6 col-md-2"> <img class="contact" style=" margin-top: 32px; width: 40px; height: 40px;"
                         src="/source/img/ig.png" alt=""></div>
                 <div class="col">Username Instagram<input style=" margin-top: 10px; width: 90%;" name="instagram" type="name"
-                        class="form-control @error('nama') is-invalid @enderror" id="nama"
+                        class="form-control @error('instagram') is-invalid @enderror" id="nama"
                         placeholder="Username Instagram">
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="col-6 col-md-2"> <img class="massage" style=" margin-top:70px ;width: 40px; height: 40px;"
                         src="/source/img/mail.png" alt=""></div>
                 <div class="col">Massage<input style=" margin-top: 10px; width: 90%; height:150px;" name="message"
-                        type="name" class="form-control @error('nama') is-invalid @enderror" id="nama"
+                        type="name" class="form-control @error('message') is-invalid @enderror" id="nama"
                         placeholder="Massage">
                 </div>
             </div>
